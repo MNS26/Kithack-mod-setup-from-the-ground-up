@@ -23,6 +23,7 @@ Now that thats out of the way... lets setup a semi-automated enviorment for maki
     We will use this later on to link the build folder(s) to one output folder so its easy to make new mods.
 
 
+
 ## Setup the enviorment
 
 ### 1. Folder prep
@@ -65,6 +66,8 @@ _... You know what. Im going to deal with you **later**..._<br/>
  | `/j` | Creates a Directory Junction |
  | `source` | Specifies the name/path (relative or absolute) that the link refers to |
  | `destination` | Specifies the name/path (relative or absolute) of the symbolic link being created |
+<br/>
+
 
 **Linux/macOS:** It's _almost_ the same as for windows but the terminal command is different.
     Type in `ln -s` and add a space.
@@ -79,6 +82,8 @@ _... You know what. Im going to deal with you **later**..._<br/>
  | `-s` | make symbolic links instead of hard links |
  | `source` | Specifies the file path of the item being linked |
  | `destination` | Specifies target file path where it will make the link |
+<br/>
+
 
 With this the folder structure _should_ look like this
 ```
@@ -91,15 +96,15 @@ KitHack Mods
 ## Making mods
 
 ### 1. The example-mod
+This example should print `Hello im an example` when built (and enabled in the game)
 There is a folder called `example-mod` included here, put it in the `KitHack Mods` folder.
+
 In the example mod there are a few files `exmaple-mod.csproj`  `exmaple-mod.modcfg`  `Loader.cs`  `main.cs`  `modexport.cfg`  `obj`.
 `example-mod.csproj` has all settings for the C# project, it is one of them you need to edit when you make a new one. (will come up later)
 `example-mod.modcfg` is used by the game to know what plugins to load, from where and in what order and whatr game version is supported, (yes mod**S**... you can chain mod dll files in order)
 `modexport.cfg` has all the settings that make it show up in the mods list.
 `Loader.cs` has the "loader" that the game uses to run the mod.
 `Main.cs` has a example print function in it
-
-This example should print `Hello im an example` when built (and enabled in the game)
 
 By now the folder structure should be
 ```
@@ -109,9 +114,11 @@ KitHack Mods
 | |-Managed (symlink)
 |-example-mod
 ```
-if you open the `example-mod` folder in VSCode or Visual Studio it should be picked up automatically.
+
+If you open the `example-mod` folder in VSCode or Visual Studio it should be picked up automatically.
 In VSCode open a terminal (should be under run) and trype `dotnet build` it will build and put it in the mods folder
 In Visual Studio there should be a button at the top to build it too.
+
 
 ### 2. A "NEW" mod
 Since we export to the linked folders we can just copy, paste and edit this template as needed to make new ones. (YAY)
