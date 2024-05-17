@@ -24,7 +24,7 @@ Now that thats out of the way... lets setup a semi-automated enviorment for maki
 
 ### 1. Folder prep
 Open up you file browser and make a folder where you want to set this up.
-(On Windows i would reccomend having NOT in the `Documents` folder since its usually connected to OneDrive and it might break stuff.)<br/>
+(On Windows i would reccomend NOT having it in the `Documents` folder since its usually connected to OneDrive and it might break stuff.)<br/>
 <sup>Dont listen to him... you can put it whhheeereeever you want</sup><br/>
 *I WILL install Windows......*
 
