@@ -1,0 +1,16 @@
+ModCFG
+{
+    title = exmaple-mod
+    author = MS26
+    modVersion = 0.1.1
+    #imgPath = preveiw.jpg
+	requiresGameVersion = 0.101.2
+    Plugin
+    {
+        name = example-mod
+        description = this is an example mod to show the general structure of the mod
+        asmpath = Mods\example-mod\example-mod.dll
+        order = 1
+    }
+}
+    
