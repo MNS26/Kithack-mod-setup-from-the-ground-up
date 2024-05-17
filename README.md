@@ -5,8 +5,7 @@ Now that thats out of the way... lets setup a semi-automated enviorment for maki
 ### software/tools needed
 * **An operating system (ghasp)**<br/>
     Windows and Linux (what i use) will work.
-    I dont have any macOS system to test it on but should be very similair to the linux steps (since its basically the same but overpriced and w/o repair options)
-
+    I dont have any macOS system to test it on but should be very similair to the linux steps (since its basically the same but overpriced and w/o repair options)<br/>
     *now that the apple fanboys(or girls... i wont judge) are riled up let's continue*
 
 * **KitHack (obviously)**<br/>
