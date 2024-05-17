@@ -115,7 +115,7 @@ Since we export to the linked folders we can just copy, paste and edit this temp
 Start by making a copy and renaming it, open it in VSCode or VS.
 In VSCode double click the `.csproj` file on the right.
 Find the line that has `<OutputPath>../External/Mods/example-mod</OutputPath>` this line tels it where to put the built file, as you can see its in the Mods folder.
-Change the name of the folder it makes by renaming it. <sup>^^^ pssst this one</sup>
+Change the name of the folder it makes by renaming it.
 _Ah its been a while_
 
 You also need to modify the folder in `.modcfg`.
