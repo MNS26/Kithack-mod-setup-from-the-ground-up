@@ -1,7 +1,6 @@
 # THIS REPO IS AN UNOFFICIAL ONE (USE AT YOUR OWN RISK... IT MAY NOT WORK AT ALL)
 Now that thats out of the way... lets setup a semi-automated enviorment for making and updating mods (and have intelli sense work as well)
 
-
 ### software/tools needed
 * **An operating system**<br/>
     <sup>ghasp who would've known</sup><br/>
@@ -44,7 +43,7 @@ Now its time to get the terminal/command prompt out.<br/>
 _... You know what. Im going to deal with you **later**..._<br/>
 <sup>oh shit</sup>
 
-**Windows:** In your file browser go to the folder where you installed the game and open the `KitHash Model Club_Data` folder.
+**Windows:** In your file browser go to the folder where you installed the game and open the `KitHack Model Club_Data` folder.
     In there should be a folder called `Managed` keep note of this folder.
     Now open another window and go to the folder called `External` that we just created.
     *time to enter hacker mode with the command prompt*<br/>
