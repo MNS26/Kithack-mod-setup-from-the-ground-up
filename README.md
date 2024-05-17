@@ -3,21 +3,21 @@ Now that thats out of the way... lets setup a semi-automated enviorment for maki
 
 
 ### software/tools needed
-* **An operating system (ghasp)**
+* **An operating system (ghasp)**<br/>
     Windows and Linux (what i use) will work.
     I dont have any macOS system to test it on but should be very similair to the linux steps (since its basically the same but overpriced and w/o repair options)
 
     *now that the apple fanboys(or girls... i wont judge) are riled up let's continue*
 
-* **KitHack (obiously)**
+* **KitHack (obiously)**<br/>
     <sup>(Oh dont worry this isnt the end of me yet)</sup>
     *Whoever wrote this i will find you and install Windows on your PC and delete all your drivers*
 
-* **Visual Studio/VSCode**
+* **Visual Studio/VSCode**<br/>
     **Windows:** You can choose either one, I wont be able to help setup Visual Studio since thats not available for me but there are thousands of guides for installing and setting up C#
     **Linux/macOS:** I would reccomend VSCode since thats what i used to set this up with. (there are online guides on how to set it up for C# development)
 
-* **command promt/terminal**
+* **command promt/terminal**</br>
     We will use this later on to link the build folder(s) to one output folder so its easy to make new mods.
 
 
@@ -25,8 +25,8 @@ Now that thats out of the way... lets setup a semi-automated enviorment for maki
 
 ### 1. Folder prep
 Open up you file browser and make a folder where you want to set this up.
-(On Windows i would reccomend having NOT in the `Documents` folder since its usually connected to OneDrive and it might break stuff.)
-<sup>Dont listen to him... you can put it whhheeereeever you want</sup>
+(On Windows i would reccomend having NOT in the `Documents` folder since its usually connected to OneDrive and it might break stuff.)<br/>
+<sup>Dont listen to him... you can put it whhheeereeever you want</sup><br/>
 *I WILL install Windows......*
 
 The initial folder structure should be as follows (i would also reccomend naming it the same too):
@@ -36,25 +36,25 @@ KitHack Mods
 ```
 
 ### 2. Linking mod export and mod dependencies
-Now its time to get the terminal/command promt out.
-<sup>Dont worry i wont be installing a backdoor on ya system... thats what the NSA already did</sup>
-_... You know what. Im going to deal with you **later**..._
+Now its time to get the terminal/command promt out.<br/>
+<sup>Dont worry i wont be installing a backdoor on ya system... thats what the NSA already did</sup><br/>
+_... You know what. Im going to deal with you **later**..._<br/>
 <sup>oh shit</sup>
 
 **Windows:** In your file browser go to the folder where you installed the game and open the `KitHash Model Club_Data` folder.
     In there should be a folder called `Managed` keep note of this folder.
     Now open another window and go to the folder called `External` that we just created.
-    *time to enter hacker mode with the command prompt*
-    <sup>awww look at him getting all excited about Windows</sup>
-    _.... **ONE** more word and i **WILL** nuke your ass back to the stone age and make that "homework" folder of yours public to the whole world_
-    <sup>wait what!? How do you know about my...</sup>
-    _Oh dont worry..... be quiet and nothing will happen. ok? ^\_^_
-    <sup>.......</sup>
-    _Now with that taken care of lets continue_
+    *time to enter hacker mode with the command prompt*<br/>
+    <sup>awww look at him getting all excited about Windows</sup><br/>
+    _.... **ONE** more word and i **WILL** nuke your ass back to the stone age and make that "homework" folder of yours public to the whole world_<br/>
+    <sup>wait what!? How do you know about my...</sup><br/>
+    _Oh dont worry..... be quiet and nothing will happen. ok? ^\_^_<br/>
+    <sup>.......</sup><br/>
+    _Now with that taken care of lets continue_<br/>
     Type in `mklink /j` and add a space.
     Next drag the folder called `Managed` into the command prompt. 
     Next add a space after this and drag the folder called `External` that we made into the command prompt and press enter.
-    <br />
+    <br/>
     (breakdown of the command)
     | part | Description |
     | :---: | :--- |
@@ -67,7 +67,7 @@ _... You know what. Im going to deal with you **later**..._
     Type in `ln -s` and add a space.
     Now drag the game's `Managed` folder into the terminal and add a space.
     Add the `External` folder we just made to it as well.
-    <br />
+    <br/>
     (breakdown of the command)
     | part | Description |
     | :---: | :--- |
@@ -116,7 +116,6 @@ Start by making a copy and renaming it, open it in VSCode or VS.
 In VSCode double click the `.csproj` file on the right.
 Find the line that has `<OutputPath>../External/Mods/example-mod</OutputPath>` this line tels it where to put the built file, as you can see its in the Mods folder.
 Change the name of the folder it makes by renaming it.
-_Ah its been a while_
 
 You also need to modify the folder in `.modcfg`.
 Look for `asmpath = Mods\example-mod\example-mod.dll` and change both the folder **AND** file name.
