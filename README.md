@@ -9,7 +9,7 @@ Now that thats out of the way... lets setup a semi-automated enviorment for maki
     *now that the apple fanboys(or girls... i wont judge) are riled up let's continue*
 
 * **KitHack (obviously)**<br/>
-    <sup>(Oh dont worry this isnt the end of me yet)</sup>
+    <sup>(Oh dont worry this isnt the end of me yet)</sup><br/>
     *Whoever wrote this i will find you and install Windows on your PC and delete all your drivers*
 
 * **Visual Studio/VSCode**<br/>
