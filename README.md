@@ -9,7 +9,7 @@ Now that thats out of the way... lets setup a semi-automated enviorment for maki
 
     *now that the apple fanboys(or girls... i wont judge) are riled up let's continue*
 
-* **KitHack (obiously)**<br/>
+* **KitHack (obviously)**<br/>
     <sup>(Oh dont worry this isnt the end of me yet)</sup>
     *Whoever wrote this i will find you and install Windows on your PC and delete all your drivers*
 
@@ -17,7 +17,7 @@ Now that thats out of the way... lets setup a semi-automated enviorment for maki
     **Windows:** You can choose either one, I wont be able to help setup Visual Studio since thats not available for me but there are thousands of guides for installing and setting up C#
     **Linux/macOS:** I would reccomend VSCode since thats what i used to set this up with. (there are online guides on how to set it up for C# development)
 
-* **command promt/terminal**</br>
+* **command prompt/terminal**</br>
     We will use this later on to link the build folder(s) to one output folder so its easy to make new mods.
 
 
@@ -36,7 +36,7 @@ KitHack Mods
 ```
 
 ### 2. Linking mod export and mod dependencies
-Now its time to get the terminal/command promt out.<br/>
+Now its time to get the terminal/command prompt out.<br/>
 <sup>Dont worry i wont be installing a backdoor on ya system... thats what the NSA already did</sup><br/>
 _... You know what. Im going to deal with you **later**..._<br/>
 <sup>oh shit</sup>
