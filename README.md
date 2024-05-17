@@ -3,12 +3,15 @@ Now that thats out of the way... lets setup a semi-automated enviorment for maki
 
 
 ### software/tools needed
-* **An operating system (ghasp)**<br/>
+* **An operating system**<br/>
+    <sup>ghasp who would've known</sup><br/>
+    _Eh? what was that?_<br/>
     Windows and Linux (what i use) will work.
     I dont have any macOS system to test it on but should be very similair to the linux steps (since its basically the same but overpriced and w/o repair options)<br/>
     *now that the apple fanboys(or girls... i wont judge) are riled up let's continue*
 
-* **KitHack (obviously)**<br/>
+* **KitHack**<br/>
+    <sup>obviously</sup>
     <sup>(Oh dont worry this isnt the end of me yet)</sup><br/>
     *Whoever wrote this i will find you and install Windows on your PC and delete all your drivers*
 
@@ -55,12 +58,13 @@ _... You know what. Im going to deal with you **later**..._<br/>
     Next add a space after this and drag the folder called `External` that we made into the command prompt and press enter.
     <br/>
     (breakdown of the command)
-    | part | Description |
-    | :---: | :--- |
-    | `mklink` | Creates a directory or file symbolic or hard link |
-    | `/j` | Creates a Directory Junction |
-    | `source` | Specifies the name/path (relative or absolute) that the link refers to |
-    | `destination` | Specifies the name/path (relative or absolute) of the symbolic link being created |
+
+ | part | Description |
+ | :---: | :--- |
+ | `mklink` | Creates a directory or file symbolic or hard link |
+ | `/j` | Creates a Directory Junction |
+ | `source` | Specifies the name/path (relative or absolute) that the link refers to |
+ | `destination` | Specifies the name/path (relative or absolute) of the symbolic link being created |
 
 **Linux/macOS:** It's _almost_ the same as for windows but the terminal command is different.
     Type in `ln -s` and add a space.
@@ -68,12 +72,13 @@ _... You know what. Im going to deal with you **later**..._<br/>
     Add the `External` folder we just made to it as well.
     <br/>
     (breakdown of the command)
-    | part | Description |
-    | :---: | :--- |
-    | `ln` | make links between files |
-    | `-s` | make symbolic links instead of hard links |
-    | `source` | Specifies the file path of the item being linked |
-    | `destination` | Specifies target file path where it will make the link |
+    
+ | part | Description |
+ | :---: | :--- |
+ | `ln` | make links between files |
+ | `-s` | make symbolic links instead of hard links |
+ | `source` | Specifies the file path of the item being linked |
+ | `destination` | Specifies target file path where it will make the link |
 
 With this the folder structure _should_ look like this
 ```
