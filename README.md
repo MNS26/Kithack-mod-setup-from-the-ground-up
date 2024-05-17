@@ -5,7 +5,7 @@ Now that thats out of the way... lets setup a semi-automated enviorment for maki
 * **An operating system**<br/>
     <sup>ghasp who would've known</sup><br/>
     _Eh? what was that?_<br/>
-    Windows and Linux (what i use) will work.
+    Windows and Linux (what i use) will work.<br/>
     I dont have any macOS system to test it on but should be very similair to the linux steps (since its basically the same but overpriced and w/o repair options)<br/>
     *now that the apple fanboys(or girls... i wont judge) are riled up let's continue*
 
@@ -15,7 +15,7 @@ Now that thats out of the way... lets setup a semi-automated enviorment for maki
     *Whoever wrote this i will find you and install Windows on your PC and delete all your drivers*
 
 * **Visual Studio/VSCode**<br/>
-    **Windows:** You can choose either one, I wont be able to help setup Visual Studio since thats not available for me but there are thousands of guides for installing and setting up C#
+    **Windows:** You can choose either one, I wont be able to help setup Visual Studio since thats not available for me but there are thousands of guides for installing and setting up C#<br/>
     **Linux/macOS:** I would reccomend VSCode since thats what i used to set this up with. (there are online guides on how to set it up for C# development)
 
 * **command prompt/terminal**</br>
